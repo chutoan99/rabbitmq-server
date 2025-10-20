@@ -4,7 +4,7 @@ services:
   env: docker
   envVars:
   - key: RABBITMQ_ERLANG_COOKIE
-    generateValue: true
+    generateValue: admin
   - key: RABBITMQ_DEFAULT_USER
     value: chutoan
   - key: RABBITMQ_DEFAULT_PASS
