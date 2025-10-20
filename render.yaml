@@ -6,9 +6,9 @@ services:
   - key: RABBITMQ_ERLANG_COOKIE
     generateValue: true
   - key: RABBITMQ_DEFAULT_USER
-    value: rabbitmq
+    value: chutoan
   - key: RABBITMQ_DEFAULT_PASS
-    generateValue: true
+    value: 12345678
   disk:
     name: rabbitmq
     mountPath: /var/lib/rabbitmq
